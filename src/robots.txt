@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hunter-ji.github.io/awesome-finder-icons/sitemap.xml

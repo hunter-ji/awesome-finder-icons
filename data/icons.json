@@ -1,0 +1,58 @@
+{
+    "icons": [
+        {
+            "name": "Smirking Finder",
+            "path": "icons/smirking-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Thinking Finder",
+            "path": "icons/thinking-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Smile Finder",
+            "path": "icons/smile-finder-2.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Shy Finder",
+            "path": "icons/shy-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Shy Finder 2",
+            "path": "icons/shy-finder-2.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Smile Finder",
+            "path": "icons/smile-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Serious Finder",
+            "path": "icons/serious-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Pink Shy Finder",
+            "path": "icons/pink-shy-finder.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        },
+        {
+            "name": "Pink Shy Finder 2",
+            "path": "icons/pink-shy-finder-2.png",
+            "author": "Hunter Ji",
+            "author-website": "https://hunterji.com"
+        }
+    ]
+}
