@@ -2,7 +2,7 @@
 
 A collection of beautiful Finder icon designs. This is a showcase project to share my icon design works.
 
-![Preview](assets/preview.png)
+![Preview](assets/preview.jpg)
 
 ## 👀 Notice
 
