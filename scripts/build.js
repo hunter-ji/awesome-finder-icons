@@ -46,6 +46,9 @@ function build() {
         copyFile('src/sitemap.xml', 'dist/sitemap.xml');
         copyFile('src/robots.txt', 'dist/robots.txt');
 
+        // Copy CNAME file
+        copyFile('src/CNAME', 'dist/CNAME');
+
         console.log('Build completed successfully!');
     } catch (error) {
         console.error('Build failed:', error);

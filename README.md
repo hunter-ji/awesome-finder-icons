@@ -32,7 +32,7 @@ We welcome contributions! Here's how you can help:
 
 - GitHub: [@hunter-ji](https://github.com/hunter-ji)
 - Website: [hunterji.com](https://hunterji.com)
-- Discord: [File Icons](https://discord.gg/MDnadYBe7B)
+- Discord: [Finder Icons](https://discord.gg/MDnadYBe7B)
 
 ## 📝 License
 
