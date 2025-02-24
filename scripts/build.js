@@ -17,6 +17,8 @@ function build() {
 </div>
 `).join('\n');
 
+        const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
+
         // Generate final HTML
         let finalHtml = template
             .replace('<!-- STYLE -->', `<style>${style}</style>`)
@@ -25,6 +27,16 @@ function build() {
                 <script>
                     const iconsData = ${JSON.stringify(iconsData.icons)};
                     ${script}
+                </script>
+            `)
+            .replace('<!-- GOOGLE_ANALYTICS -->', `
+                <script async src="https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+
+                    gtag('config', '${googleAnalyticsId}');
                 </script>
             `);
 

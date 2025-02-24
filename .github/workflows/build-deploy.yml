@@ -21,6 +21,8 @@ jobs:
 
       - name: Build website
         run: node scripts/build.js
+        env:
+          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
